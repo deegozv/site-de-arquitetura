@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+
+#logo:hover{
+    box-shadow: 1px 1px 10px white;
+}
+
+#secao-home{
+    position: relative;
+    min-height:  50vh;
+    
+}
+
+
+.container-main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    position: relative;
+}
+
+
+
+.caixa-projeto{
+    height: 250px;
+    width: 380px;
+    box-shadow: 1px 1px 10px black;
+    margin: 5vh auto;
+    
+}
+.caixa-projeto2{
+    height: 250px;
+    width: 360px;
+    box-shadow: 1px 1px 10px black;
+    margin: 5vh auto;
+}
+.caixa-projeto3{
+    height: 250px;
+    width: 380px;
+    box-shadow: 1px 1px 10px black;
+    margin: 5vh auto;
+}
+.imagens_projeto:hover{
+    cursor: pointer;
+}
+
+.grow:hover
+{
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+footer{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: absolute;
+}
+#titulo-rodape{
+    color: white;
+    font-size: larger;
+    margin-top: 10px;
+}
+#container-redes{
+    
+    margin: auto;
+    height: 20vh;
+    width: 40%;
+    display: flex;
+    
+}
+.contato:hover{
+    cursor: pointer;
+}
+
+.caixa{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 30%;
+}
+#container-email{
+    
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+}
+#container-logo{
+    
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+}
